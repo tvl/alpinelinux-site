@@ -30,3 +30,38 @@ enableRobotsTXT = true
   background_color_class = "bg-black"
   featured_image = "/images/banner.jpg"
   recent_posts_number = 9
+
+
+[menu]
+ 
+   [[menu.main]]
+     identifier = "home"
+     name = "Home"
+     url = "/"
+     weight = -110
+ 
+   [[menu.main]]
+     identifier = "download"
+     name = "Downloads"
+     url = "/downloads/"
+     weight = -100
+ 
+   [[menu.main]]
+     identifier = "about"
+     name = "About"
+     url = "/about/"
+     weight = -90
+
+   [[menu.main]]
+     identifier = "community"
+     name = "Community"
+     url = "/community/"
+     weight = -80
+
+   [[menu.main]]
+     identifier = "ponsors"
+     name = "Sponsors"
+     url = "/sponsors/"
+     weight = -70
+
+
